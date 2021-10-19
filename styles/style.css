@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+button{
+    margin-top: 5px;
+    width: 321px;
+    background-color: rgb(83, 43, 16);
+    color: rgba(231, 148, 53, 0.671);
+    border-color: rgb(90, 44, 15);
+    padding: 5px;
+}
+
+h1{
+    color: rgba(221, 146, 59, 0.651);
+    padding-bottom: 5px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: url(../Assets/Images/Wood_table.jpg);
+    background-size: cover;
+}
+
+.stage{
+    margin: auto;
+    margin-top: 160px;
+    background-color: rgb(59, 32, 10);
+    width: 380px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 8px 10px rgba(0, 0, 0, 0.61);
+}
+
+.sector{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(27, 16, 3);
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 70px;
+    line-height: 100px;
+    content: "\2B55";
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 70px;
+    line-height: 100px;
+    content: "\274C";
+}
